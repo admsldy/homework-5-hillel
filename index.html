@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Селектори</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Застосовується до тегів h1, вага 1</h1>
+
+    <p class = "purple-bold"> Застосовується до тегів з класом "purple-bold", вага 10</p>
+
+    <p id ="shadow"> Застосовується до тегів з айді "shadow", вага 100</p>
+
+    <label> Застосовується до тегів з типом "text", вага 10
+        <input type="text" name="text">
+    </label>
+    
+    <div>
+        <h2>Застосовується до тегів p, вкладених у div, вага 2</h2>
+    </div>
+
+    <div>
+        <p>Застосовується до тегів p, вкладених у div, на першому рівні, вага 2 </p>
+    </div>
+
+    <h2>Послідовність селекторів</h2>
+    <p>Застосовується до тегів p, які розташовані одразу після h2, вага 2</p>
+
+    <p class="red">Застосовується до тегів p з класом "red", вага 11</p>
+
+    <div>
+    <p id="green">Застосовується до p з айді "green", вага 101 </p>
+    </div>
+
+    <div class="orange">
+        <p>Застосовується до тегів p з класом "orange", вага 11</p>
+    </div>
+
+</body>
+</html>
