@@ -1,0 +1,46 @@
+h1 {
+    background-color: #4646c5;
+}
+
+.purple-bold {
+    color: #6e3a99;
+    font-weight: bold;
+}
+
+#shadow {
+    text-shadow: 2px 2px 5px #000000;
+}
+
+[type="text"] {
+    border: 5px solid #851b1b;
+}
+
+div h2 {
+    background-color: #f777a8;
+}
+
+div > p {
+    color: #60d1f3;
+    font-weight: bold;
+}
+
+h2 + p {
+    font-style: italic;
+    text-decoration:underline;
+    color: #f777a8;
+}
+
+p.red {
+    color: #ffdfdf;
+    background-color: #740000;
+}
+
+div #green {
+    border: 5px solid #02bd31;
+    color: #08641f;
+}
+
+.orange > p {
+    color: #ff9933;
+    font-weight: bold;
+}
